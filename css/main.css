@@ -4,6 +4,9 @@
 .timeline {
   border-left: 2px solid #E6E9ED;
   padding: 1rem 0; }
+  .timeline-lang {
+  border-top: 2px solid #E6E9ED;
+  padding: 1rem 0; }
 
 .timeline-card {
   position: relative;
@@ -37,6 +40,10 @@
   top: 25px;
   left: -29px;
   z-index: 1; }
+
+  .left{
+    left:-10px
+  }
 
 .timeline-card-primary {
   border-left-color: #4A89DC; }

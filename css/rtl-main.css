@@ -1,0 +1,38 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&display=swap');
+body{
+  font-family: 'Cairo', sans-serif;
+  font-weight: 500;
+} */
+/* .h1, .h2 ,.h3 ,.h4 ,.h5{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} */
+
+.timeline {
+
+    border-right: 2px solid #E6E9ED;
+    border-left: 0;
+     }
+.timeline-card {
+        margin-right: 31px;
+        margin-left: 0;
+        border-right: 2px solid;
+         }    
+         .timeline-card:before {
+          
+            right: -41px;
+           }
+           .timeline-card:after {
+          
+            right: -29px;
+           }           
+.right{
+    right:-10px
+}
+.timeline-card-primary {
+    border-right-color: #4A89DC; 
+    border-left-color: #E6E9ED;
+}           
+.timeline-card-success {
+    border-right-color: #37BC9B; 
+    border-left-color: #E6E9ED;
+}           

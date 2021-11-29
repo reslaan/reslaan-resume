@@ -6,7 +6,17 @@ body{
    font-family: 'Poppins', 'Cairo', sans-serif;
   font-weight: 500;
   background-color: #eeeeee;
-  /* font-size: 1rem; */
+  font-size: 1rem;
+}
+@media screen and (max-width:400px) {
+  html{
+    font-size:55% ;
+  }
+}
+@media screen and (max-width:600px) {
+  html{
+    font-size:75% ;
+  }
 }
 
 h2{
@@ -150,19 +160,15 @@ html {
   border-radius: 10px 10px 0 0; }
 
 .avatar {
-  max-width: 216px;
+  /* max-width: 216px;
   max-height: 216px;
-  margin-top: 20px;
+  margin-top: 20px; */
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-
+filter: grayscale(90%);
 }
 
-.avatar img {
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(90%);
-}
 
 footer a:not(.nav-link) {
   color: inherit;

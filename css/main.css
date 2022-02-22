@@ -211,3 +211,55 @@ footer a:not(.nav-link) {
   .page-break {
     padding-top: 5rem;
     page-break-before: always; } }
+
+
+
+    /*  brand color */
+
+.fa-html5{
+  color: #e34f26;
+}
+
+.fa-css3{
+color: #009ffc;
+}
+
+.fa-sass{
+color: #bf4080;
+}
+
+.fa-bootstrap{
+  color: #7952b3;
+}
+
+.fa-js{
+color: #f7df1e;
+}
+
+.fa-laravel{
+color: #f55247;
+}
+
+.fa-wordpress{
+color: #21759b;
+}
+
+.fa-database{
+color: #00758f;
+}
+
+.fa-java{
+color: #77afcf;
+}
+
+.fa-git-alt{
+color: #fc6d26;
+}
+
+.fa-linux{
+color: #0f0f0f;
+}
+
+.fa-digital-ocean{
+color: #008bcf;
+}

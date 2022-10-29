@@ -44,7 +44,7 @@ a{
 
 .skills-section .card{
   width: 80%;
-  height: 7.7rem;
+  /* height: 2.7rem; */
   transition: all .3s;
 }
 .skills-section .card:hover{
